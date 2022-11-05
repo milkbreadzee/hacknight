@@ -20,7 +20,9 @@ async def send_message(message, user_message, is_private):
     
 
 def run_discord_bot():
+    #this token cannot be used in the actual discord bot.
     TOKEN = 'MTAzODQyMzczNjA2OTY2MDcxNA.GZ_8N2._wZuvlJumPVPyNP1TWQ3yxOmNytfoDcl7HEhFg'
+    
     intents = discord.Intents.default() #to get the default intents, new thingy look it up !!!
     intents.message_content = True # to be able to read the messaage ???
 
